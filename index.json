@@ -1,0 +1,27 @@
+{
+    "title": "CKS CKA CKAD Setup",
+    "description": "How to setup Vim for the K8s exams",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Persist Vim settings in .vimrc",
+                "text": "step1/text.md"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "alpine:latest",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "idea | terminal | notebook",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
